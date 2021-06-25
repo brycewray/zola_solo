@@ -3,7 +3,7 @@ title: "Post 3 with its UNIQUE title" # Quotation marks allow colons, semicolons
 description: "The UNIQUE description for Post 3." # Quotation marks allow colons, semicolons, etc.
 date: 2019-01-19T03:25:00-06:00
 updated: 2019-10-06T14:00:00-05:00 # Comment-out this line with a # if content is unchanged
-draft: false # Make it "true" if you don't want Hugo to "publish" yet
+draft: false # Make it "true" if you don't want Zola to "publish" yet
 extra:
   subtitle: "The UNIQUE Post 3 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here
@@ -19,7 +19,7 @@ And after another paragraph or two or three, you may want to add a subheading, w
 
 Text here.
 
-And here is an example of how to use the `img` shortcode in `/layouts/shortcodes` (note that the images must be in the same folder with the content, because of how Hugo bundles do image processing, so that's why the `src` references don't include a folder upfront):
+And here is an example of how to use the `imgc` shortcode in `/templates/shortcodes`:
 
 {{ imgc(path="posts/2019/01/post-3/screen-cap-from-Pippin-Williamson-s-page-builders-review.png", alt="Screen capture showing shortcodes from a WordPress page builder", width=986, height=482) }}
 

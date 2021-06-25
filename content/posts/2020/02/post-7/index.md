@@ -3,7 +3,7 @@ title: "Post 7 with its UNIQUE title" # Quotation marks allow colons, semicolons
 description: "The UNIQUE description for Post 7." # Quotation marks allow colons, semicolons, etc.
 date: 2020-02-28T21:30:00-06:00
 updated: 2020-04-02T07:23:00-05:00 # Comment-out this line with a # if content is unchanged
-draft: false # Make it "true" if you don't want Hugo to "publish" yet
+draft: false # Make it "true" if you don't want Zola to "publish" yet
 extra:
   subtitle: "The UNIQUE Post 7 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here
@@ -22,12 +22,10 @@ Text here.
 Maybe you want a code block to illustrate something. Here's one:
 
 ```js
-
 /* =========
-This is some simple JavaScript, 
-just so you can see how Hugo handles 
-a code block.
-It doesn't **do** anything in Hugo, of course.
+This is some simple JavaScript, just so 
+you can see how Zola handles a code block.
+It doesn't **do** anything in Zola, of course. 
 Helpful on a dev blog, eh?
 ========= */
 
@@ -51,7 +49,6 @@ When run, the above would output:
 8
 9
 ========= */
-
 ```
 
-Closing text. That ends Post 7! One more to go in this starter set.
+Closing text. That ends Post 7!

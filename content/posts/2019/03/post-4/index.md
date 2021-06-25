@@ -21,12 +21,10 @@ Text here.
 Maybe you want a code block to illustrate something. Here's one:
 
 ```js
-
 /* =========
-This is some simple JavaScript, 
-just so you can see how Hugo handles 
-a code block.
-It doesn't **do** anything in Hugo, of course.
+This is some simple JavaScript, just so 
+you can see how Zola handles a code block.
+It doesn't **do** anything in Zola, of course. 
 Helpful on a dev blog, eh?
 ========= */
 
@@ -50,7 +48,6 @@ When run, the above would output:
 8
 9
 ========= */
-
 ```
 
 Closing text. That ends Post 4!

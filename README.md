@@ -18,4 +18,4 @@ See the [online demo](https://zola-solo.vercel.app/).
 - Zola’s [built-in image processing capabilities](https://www.getzola.org/documentation/content/image-processing/). (The **real** site’s repo uses [Cloudinary](https://cloudinary.com) rather than having the images in the repo and processing them as such.)
 - [SCSS](https://sass-lang.com/) through [Zola's built-in support](https://www.getzola.org/documentation/content/sass/).
 
-*Effective 2021-06-25, development on this repository will be* ***on hold*** *at least until Hugo is compatible with [Dart Sass](https://sass-lang.com/dart-sass) rather than the [deprecated Libsass](https://sass-lang.com/blog/libsass-is-deprecated) (see [Zola issue #1083](https://github.com/getzola/zola/issues/1083)).*
+*Effective 2021-06-25, development on this repository will be* ***on hold*** *at least until Zola is compatible with [Dart Sass](https://sass-lang.com/dart-sass) rather than the [deprecated Libsass](https://sass-lang.com/blog/libsass-is-deprecated) (see [Zola issue #1083](https://github.com/getzola/zola/issues/1083)).*
