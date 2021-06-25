@@ -1,0 +1,21 @@
+{# args for this are src, alt, width, height #}
+{% set cloudiBase = 'https://res.cloudinary.com/brycewray-com/image/upload/' %}
+{% set xFmPart1 = 'f_auto,q_auto:eco,w_' %}
+{% set xFmPart2 = ',x_0,z_1/' %}
+{% set divClass = 'relative' %}
+{% set imgClass = 'containedImage' %}
+{% set nscClass = 'containedImage' %}
+{% set dataSzes = '(min-width: 1024px) 100vw, 50vw' %}
+{% set separator = ', ' %}
+<div class='{{ divClass }}'>
+  <img
+    class='{{ imgClass }}' 
+    src='{{ cloudiBase }}{{ xFmPart1 }}600{{ xFmPart2 }}/{{ src }}' 
+    srcset='{% if width >= 300 %}{{ cloudiBase }}{{ xFmPart1 }}300{{ xFmPart2 }}{{ src }} 300w{% endif %}{% if width >= 450 %}, {{ cloudiBase }}{{ xFmPart1 }}450{{ xFmPart2 }}{{ src }} 450w{% endif %}{% if width >= 600 %}, {{ cloudiBase }}{{ xFmPart1 }}600{{ xFmPart2 }}{{ src }} 600w{% endif %}{% if width >= 750 %}, {{ cloudiBase }}{{ xFmPart1 }}750{{ xFmPart2 }}{{ src }} 750w{% endif %}{% if width >= 900 %}, {{ cloudiBase }}{{ xFmPart1 }}900{{ xFmPart2 }}{{ src }} 900w{% endif %}{% if width >= 1050 %}, {{ cloudiBase }}{{ xFmPart1 }}1050{{ xFmPart2 }}{{ src }} 1050w{% endif %}{% if width >= 1200 %}, {{ cloudiBase }}{{ xFmPart1 }}1200{{ xFmPart2 }}{{ src }} 1200w{% endif %}{% if width >= 1350 %}, {{ cloudiBase }}{{ xFmPart1 }}1350{{ xFmPart2 }}{{ src }} 1350w{% endif %}{% if width >= 1500 %}, {{ cloudiBase }}{{ xFmPart1 }}1500{{ xFmPart2 }}{{ src }} 1500w{% endif %}' alt='{{ alt }}' width='{{ width }}' height='{{ height }}' sizes='{{ dataSzes }}' loading='lazy'
+  />
+  <noscript>
+    <img
+      class="{{ nscClass }}" src="{{ cloudiBase }}{{ xFmPart1 }}300{{ xFmPart2 }}{{ src }}" alt="{{ alt }}" 
+    />
+  </noscript>
+</div>
