@@ -20,6 +20,6 @@ See the [online demo](https://zola-solo.vercel.app/).
 
 ## Handling footnotes
 
-Please see `/content/about/index.md` for information concerning how Zola handles footnotes, since the procedure and resulting behavior is different than you’ll likely find on other SSGs.
+Please see `/content/about/index.md` for information concerning how Zola handles footnotes, since this is different than you’ll likely find on other SSGs.
 
 *Effective 2021-06-25, development on this repository will be* ***on hold*** *at least until Zola is compatible with [Dart Sass](https://sass-lang.com/dart-sass) rather than the [deprecated Libsass](https://sass-lang.com/blog/libsass-is-deprecated) (see [Zola issue #1083](https://github.com/getzola/zola/issues/1083)).*
