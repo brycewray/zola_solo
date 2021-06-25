@@ -8,7 +8,7 @@ See the [online demo](https://zola-solo.vercel.app/).
 
 1. Clone this to a local repo.
 2. Make appropriate changes to `config.toml` to conform to your site’s parameters.
-3. Once you have [installed Zola](https://www.getzola.org/documentation/getting-started/installation/), run `zola serve` from your terminal app. You can then view the site in [http://127.0.0.1:1111](http://127.0.0.1:1111) on your computer.
+3. Once you have [installed Zola](https://www.getzola.org/documentation/getting-started/installation/), run `zola serve` from your terminal app. You can then [view the site on your computer](https://www.getzola.org/documentation/getting-started/cli-usage/#serve).
 4. Read the sample posts and their Markdown files to see how everything works.
 5. Edit the content to make it your own!
 6. When ready, [deploy the site](https://www.getzola.org/documentation/deployment/overview/) to your chosen host.
@@ -16,6 +16,10 @@ See the [online demo](https://zola-solo.vercel.app/).
 ## What’s under the hood
 
 - Zola’s [built-in image processing capabilities](https://www.getzola.org/documentation/content/image-processing/). (The **real** site’s repo uses [Cloudinary](https://cloudinary.com) rather than having the images in the repo and processing them as such.)
-- [SCSS](https://sass-lang.com/) through [Zola's built-in support](https://www.getzola.org/documentation/content/sass/).
+- [SCSS](https://sass-lang.com/) through [Zola’s built-in support](https://www.getzola.org/documentation/content/sass/).
+
+## Handling footnotes
+
+Please see `/content/about/index.md` for information concerning how Zola handles footnotes, since the procedure and resulting behavior is different than you’ll likely find on other SSGs.
 
 *Effective 2021-06-25, development on this repository will be* ***on hold*** *at least until Zola is compatible with [Dart Sass](https://sass-lang.com/dart-sass) rather than the [deprecated Libsass](https://sass-lang.com/blog/libsass-is-deprecated) (see [Zola issue #1083](https://github.com/getzola/zola/issues/1083)).*
