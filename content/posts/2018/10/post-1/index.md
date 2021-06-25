@@ -4,7 +4,7 @@ description: "The UNIQUE description for Post 1." # Quotation marks allow colons
 date: 2018-10-17T14:40:00-05:00
 updated: 2019-04-11T20:33:00-05:00 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Hugo to "publish" yet
-[extra]
+extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here
 ---
@@ -21,10 +21,10 @@ Text here.
 
 And here are some examples of how to use the `img` shortcode in `/layouts/shortcodes` (note that the images must be in the same folder with the content, because of how Hugo bundles do image processing, so that's why the `src` references don't include a folder upfront):
 
-{% imgc(path="posts/2018/10/post-1/Typography-scr-cap-2-2018-10-16.jpg", alt="Thin and dim text that is hard to read", width="1344", height="200") %}
+{{ imgc(path="posts/2018/10/post-1/Typography-scr-cap-2-2018-10-16.jpg", alt="Thin and dim text that is hard to read", width=1344, height=200) }}
 
-{% imgc(path="posts/2018/10/post-1/Typography-scr-cap-3-2018-10-16.jpg", alt="More thin and dim text that is hard to read", width="1398", height="252") %}
+{{ imgc(path="posts/2018/10/post-1/Typography-scr-cap-3-2018-10-16.jpg", alt="More thin and dim text that is hard to read", width=1398, height=252) }}
 
-{% imgc(path="posts/2018/10/post-1/Typography-scr-cap-4-2018-10-16.jpg", alt="Still more thin and dim text that is hard to read", width="1398", height="164") %}
+{{ imgc(path="posts/2018/10/post-1/Typography-scr-cap-4-2018-10-16.jpg", alt="Still more thin and dim text that is hard to read", width=1398, height=164) }}
 
 Closing text. That ends Post 1!

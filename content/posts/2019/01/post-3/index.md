@@ -4,7 +4,7 @@ description: "The UNIQUE description for Post 3." # Quotation marks allow colons
 date: 2019-01-19T03:25:00-06:00
 updated: 2019-10-06T14:00:00-05:00 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Hugo to "publish" yet
-[extra]
+extra:
   subtitle: "The UNIQUE Post 3 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here
 ---
@@ -21,6 +21,6 @@ Text here.
 
 And here is an example of how to use the `img` shortcode in `/layouts/shortcodes` (note that the images must be in the same folder with the content, because of how Hugo bundles do image processing, so that's why the `src` references don't include a folder upfront):
 
-{% imgc(path="screen-cap-from-Pippin-Williamson-s-page-builders-review.png", alt="Screen capture showing shortcodes from a WordPress page builder", width="986", height="482") %}
+{{ imgc(path="posts/2019/01/post-3/screen-cap-from-Pippin-Williamson-s-page-builders-review.png", alt="Screen capture showing shortcodes from a WordPress page builder", width=986, height=482) }}
 
 Closing text. That ends Post 3!

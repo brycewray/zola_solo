@@ -6,7 +6,7 @@
     <div class="homeOpen">
       <h1>Home page</h1>
       <p>This sentence comes from the template.</p>
-      {{ page.content | safe }}
+      {{ section.content | safe }}
     </div>
     <div class="homePost-Div">
       <div class="post-line"></div>
@@ -18,8 +18,8 @@
           <h2 class="homePost-Title"><a href="{{ post.permalink | safe }}">{{ post.title }}</a></h2>
           <p class="homePost-Subtitle">{% if post.extra.subtitle %}{{ post.extra.subtitle }}{% endif %}</p>
           <p class="homePost-Dates">
-            <strong>{{ post.date  | date(format="%B %e, %Y", timezone="America/Chicago") }}</strong>{% if post.extra.lastmod %}<br />
-            Last modified {{ post.extra.lastmod  | date(format="%B %e, %Y", timezone="America/Chicago") }}{% endif %}
+            <strong>{{ post.date  | date(format="%B %e, %Y", timezone="America/Chicago") }}</strong>{% if post.updated %}<br />
+            Last modified {{ post.updated  | date(format="%B %e, %Y", timezone="America/Chicago") }}{% endif %}
           </p>
           <p class="homePost-Description">
             {{ post.description}}

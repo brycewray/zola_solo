@@ -4,7 +4,7 @@ description: "The UNIQUE description for Post 7." # Quotation marks allow colons
 date: 2020-02-28T21:30:00-06:00
 updated: 2020-04-02T07:23:00-05:00 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Hugo to "publish" yet
-[extra]
+extra:
   subtitle: "The UNIQUE Post 7 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here
 ---
