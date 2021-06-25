@@ -1,20 +1,20 @@
 # The URL the site will be built for
-base_url = "https://zola-site.vercel.app"
+# base_url = "https://example.com"
 
-title = "BryceWray.com"
-description="Bryce Wray’s website | Observations, opinions, geekiness"
+title = "Site name here"
+description="Site description here"
 
 # When set to "true", a feed is automatically generated.
-generate_feed = true
+# generate_feed = true
 
 # The filename to use for the feed. Used as the template filename, too.
 # Defaults to "atom.xml", which has a built-in template that renders an Atom 1.0 feed.
 # There is also a built-in template "rss.xml" that renders an RSS 2.0 feed.
-feed_filename = "index.xml"
+# feed_filename = "index.xml"
 
 # The number of articles to include in the feed. All items are included if
 # this limit is not set (the default).
-feed_limit = 10
+# feed_limit = 10
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
