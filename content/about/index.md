@@ -9,14 +9,18 @@ extra:
   #subtitle:
 ---
 
-A few words about you.  Your opening text goes here.
+A few words about you.  Your opening text goes here.[^footnoteEx1]
 
 ## In-article heading --- it's an H2 because your title is the H1
 
-And after another paragraph or two or three, you may want to add a subheading, which would be an H3, so it would be like the following.
+And after another paragraph or two or three, you may want to add a subheading, which would be an H3, so it would be like the following.[^footnoteEx2]
 
 ### Subheading (H3)
 
 Text here.
 
 Closing text. That ends your "About" item!
+
+[^footnoteEx1]: This is how a footnote works. Please note that Zola does **not** automatically put your footnotes at the bottom of your page, as many other static site generators do; so you must **manually** place your footnotes, in the desired order, at the bottom of your Markdown. This is because Zola uses [CommonMark](https://commonmark.org/) via the [pulldown-cmark](https://github.com/raphlinus/pulldown-cmark) parser library (see [https://zola.discourse.group/t/is-there-a-way-to-customise-the-way-zola-parses-markdown-footnotes/694](https://zola.discourse.group/t/is-there-a-way-to-customise-the-way-zola-parses-markdown-footnotes/694)).
+
+[^footnoteEx2]: This is a second footnote.
