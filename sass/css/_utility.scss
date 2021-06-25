@@ -35,6 +35,31 @@
   font-size: $pokey;
 }
 
+.eightyFive {
+  font-size: $eightyFive;
+}
+
+.seventyFive {
+  font-size: $seventyFive;
+}
+
+.sixtyFive {
+  font-size: $sixtyFive;
+}
+
+.topM2 {
+  margin-top: 2em;
+}
+
+.btmM1 {
+  margin-bottom: 1em;
+}
+
+.btmM10 {
+  margin-bottom: 10em;
+}
+
+
 .text {
   &-nowrap, .nobrk {
     white-space: nowrap;

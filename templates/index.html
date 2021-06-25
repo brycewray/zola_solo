@@ -19,7 +19,7 @@
           <p class="homePost-Subtitle">{% if post.extra.subtitle %}{{ post.extra.subtitle }}{% endif %}</p>
           <p class="homePost-Dates">
             <strong>{{ post.date  | date(format="%B %e, %Y", timezone="America/Chicago") }}</strong>{% if post.updated %}<br />
-            Last modified {{ post.updated  | date(format="%B %e, %Y", timezone="America/Chicago") }}{% endif %}
+            Last modified {{ post.updated | date(format="%B %e, %Y", timezone="America/Chicago") }}{% endif %}
           </p>
           <p class="homePost-Description">
             {{ post.description}}
