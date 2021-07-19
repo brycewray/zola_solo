@@ -9,4 +9,4 @@ extra:
   #subtitle:
 ---
 
-This sentence comes from the **/content/_index.md** file. Testing one two three.
+This sentence comes from the **/content/_index.md** file.
